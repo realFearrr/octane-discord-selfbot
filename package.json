@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "patch-package",
-    "inject": "node index.js"
+    "inject": "nodemon index.js"
   },
   "dependencies": {
     "@iamtraction/google-translate": "^1.1.2",
